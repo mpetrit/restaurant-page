@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-image: url("assets/home-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* header */
+header{
+    background-color: rgba(206, 136, 89, 0);
+}
+header h1{
+    padding:10px ;
+    color: white;
+}
+nav{
+    background-color: #e99a66;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-button{
+    padding: 10px;
+    font-size: 1.5rem;
+    opacity: 1;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.nav-button:hover{
+    background-color: rgb(201, 198, 198);
+}
+
+/* home */
+.home-main{
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background: rgba(109, 109, 109, 0.253);
+}
+.slogan-title{
+    font-size: 5rem;
+    color: white;
+}
+/* Menu */
+.menu-main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.menu-main h1{
+    color: white;
+    font-size: 4rem;
+}
+.menu-items{
+    width: 90vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(10%,350px));
+    gap: 25px;
+}
+.dish-card{
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.dish-card:hover{
+    background-color: rgb(204, 200, 200);
+
+}
+.dish-card img{
+    width: 230px;
+}
+/* About */
+.about-main{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    flex-wrap:  wrap;
+}
+.story{
+    background-color: rgba(255, 255, 255, 0.781);
+    border-radius: 15px;
+    color: black;
+    width: 1000px;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+.contact{
+    background-color: rgba(255, 255, 255, 0.781);
+    border-radius: 15px;
+    color: black;
+    width:600px;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+/* footer */
+footer{
+    padding: 25px;
+    background-color: #e99a66;
+    display: flex;
+    justify-content: center;
+}
+
